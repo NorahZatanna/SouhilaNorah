@@ -2,9 +2,35 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.header {
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 250px;
+}
+
+.email {
+    text-align: right;
+}
+
 .picturecontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
 }
