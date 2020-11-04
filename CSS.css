@@ -1,0 +1,10 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.picturecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
