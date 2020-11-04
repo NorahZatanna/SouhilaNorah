@@ -1,6 +1,32 @@
 body {
     font-family: 'Nunito', sans-serif;
     background-color: lightgrey;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.leftside {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(255, 255, 255); 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+
+.rightside {
+    height: 100%; 
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
 .header {
@@ -22,6 +48,13 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border: 2px solid #333;
+}
+
+.image {
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -35,3 +68,16 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+h4 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: right;
+}
+
