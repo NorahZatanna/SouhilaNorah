@@ -27,7 +27,6 @@ body {
     background-image: linear-gradient(to left, rgba(145, 84, 163, 0.527) , rgba(151, 148, 148, 0.267));
     overflow-x: hidden;
     padding-top: 20px;
-    justify-content: right;
 }
 
 .header {
